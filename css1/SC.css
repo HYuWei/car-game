@@ -1,0 +1,65 @@
+
+#beijing{
+    width: 470px;height: 800px;background:url(../img/21.jpg);margin: auto;border: 2px solid black;position: relative;overflow: hidden;
+}
+#beijing .defeng{
+    position: absolute;width: 200px;height: 50px;line-height: 50px;top: 0;font-size: 25px;font-weight: bold
+}
+#beijing .defeng span{color: white}
+
+#beijing #kaishi{
+    width: 470px;height: 800px;background: rgba(0,0,0,0.6);position: absolute;top: 0;text-align: center;z-index: 2;
+}
+#beijing #kaishi .JDsaiche{
+    margin-top: 300px;font-size: 100px;color:white;font-weight: bold
+}
+#beijing #kaishi #KSyouxi{
+  cursor: pointer;
+}
+#beijing #car{
+    bottom:0;left: 155px;position: absolute;font-size:50px 
+}
+#beijing .cars{
+    position: absolute;
+}
+#beijing .yidong{
+    position: absolute;top:-20px;color: white;font-size: 50px;font-weight: bold
+}
+
+#beijing #Jshu{
+    position: absolute;width: 470px;height: 800px;background: rgb(0,0,0);display: block;text-align: center;z-index: 20;display: none;
+}
+#beijing #Jshu p{
+    color: red;margin-top: 150px;font-size: 50px
+}
+#beijing #Jshu div.div1{
+    position: absolute;bottom:150px;font-size: 30px;color:white
+}
+#beijing #Jshu div.div2{
+    position: absolute;bottom:100px;font-size: 30px;color:white
+}
+#beijing #Jshu button{
+    margin-top:200px;font-size: 50px;background: none;color: white;outline: none;border: none;user-select: none;
+}
+#Szhi{
+    width:200px;height: 100px;position: absolute;top:0;
+}
+
+#Szhi #a{text-decoration: none;}
+
+#TC{
+    position: absolute;left: 0;right: 0;top: 0;bottom: 0;background: rgba(0,0,0,0.4);z-index: 99;display: none;
+}
+#TC div img{
+    margin-top: 50px;margin-left: 30px;box-sizing: border-box
+}
+#TC div{
+    width: 400px;height: 400px;position: absolute;top:50px;background: rgba(0,0,0);left: 50%;margin-left: -200px;
+}
+#TC div button{position: absolute;bottom:30px;}
+#TC div button#qbtn{left: 30%}
+#TC div button#xbtn{right: 30%}
+
+#jilv,#jilv1{
+    position: absolute;right: 0px;top: 50%;display: none;width: 320px;height: 60px;}
+#jilv1 img{width: 100%;top:60%}
